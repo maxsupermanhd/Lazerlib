@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/d97/group___numbers" kind="group">
+    <compoundname>Numbers</compoundname>
+    <title>Рисование чего то подобного на арабские цифры</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d6/d97/group___numbers_1ga7bf2ee2ff6f1fae3c94ecdd91456e1c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber1</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber1</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 1. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="221" column="1" bodyfile="lazer.h" bodystart="221" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1gaa95c529cd7c87bcbc5f3274d089c056f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber2</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber2</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 2. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="236" column="1" bodyfile="lazer.h" bodystart="236" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1gad3927a531abaab8816ef1c07ead38ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber3</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber3</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 3. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="254" column="1" bodyfile="lazer.h" bodystart="254" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1ga04e91b66cc1bbf2e7e8124cffdd935d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber4</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber4</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 4. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="272" column="1" bodyfile="lazer.h" bodystart="272" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1ga7b4fd8f9444777e8e63735fa24f28d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber5</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber5</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 5. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="290" column="1" bodyfile="lazer.h" bodystart="290" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1gacfe470f2179ec112e4f57ece80f7d48e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber6</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber6</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 6. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="307" column="1" bodyfile="lazer.h" bodystart="307" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1ga60964de8309128bad4cbf9a28a32752e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber7</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber7</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 7. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="325" column="1" bodyfile="lazer.h" bodystart="325" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1gae66130c785cd9ff906f9ed253d873cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber8</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber8</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 8. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="341" column="1" bodyfile="lazer.h" bodystart="341" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1ga97c798dbac9a29c16500329b76bb9ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber9</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber9</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 9. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="363" column="1" bodyfile="lazer.h" bodystart="363" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1gaeb2ca5991f7dbfbadb47eca594b53df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber0</definition>
+        <argsstring>(int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber0</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается 0. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="380" column="1" bodyfile="lazer.h" bodystart="380" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d97/group___numbers_1gab769b7b12e03942d22c1f41821cfbc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawNumber</definition>
+        <argsstring>(int Num, int StartX=5, int StartY=5)</argsstring>
+        <name>DrawNumber</name>
+        <param>
+          <type>int</type>
+          <declname>Num</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается Num. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>От 0 до 9 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="397" column="1" bodyfile="lazer.h" bodystart="397" bodyend="432"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>С помощью этих функций можно нарисовать чиселки! Координаты начинаются с нижнего левого угла. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

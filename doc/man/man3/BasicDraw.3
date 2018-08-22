@@ -1,0 +1,79 @@
+.TH "BasicDraw" 3 "Wed Aug 22 2018" "Version 1.1" "Lazer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BasicDraw \- С помощью этих функций можно нарисовать абсолютно все!  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetLazer\fP (int Color)"
+.br
+.ti -1c
+.RI "void \fBSetLazerPos\fP (int TargetX, int TargetY, float Drspeed)"
+.br
+.ti -1c
+.RI "void \fBGoToCorner\fP (int corn, int Drspeed)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+С помощью этих функций можно нарисовать абсолютно все! 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "void GoToCorner (int corn, int Drspeed)"
+
+.SS "Двигает лазер в нужную координату с определенной скоростью\&. "
+.PP
+Возможные направления: 
+.PP
+.nf
+1   2
+ \ /
+  O
+ / \
+4   3
+
+.fi
+.PP
+ 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcorn\fP Направление (1, 2, 3, 4) 
+.br
+\fIDrspeed\fP Скорость\&. Значения меньше 1 на свой страх и риск! 
+.RE
+.PP
+
+.SS "void SetLazer (int Color)"
+Включает или выключает лазер\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIColor\fP комманда 0-выключить, 1-включить 
+.RE
+.PP
+
+.SS "void SetLazerPos (int TargetX, int TargetY, float Drspeed)"
+Двигает лазер в нужную координату с определенной скоростью\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fITargetX\fP Координата по оси X 
+.br
+\fITargetY\fP Координата по оси Y 
+.br
+\fIDrspeed\fP Скорость\&. Значения меньше 1 на свой страх и риск! 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Lazer from the source code\&.

@@ -1,0 +1,113 @@
+.TH "lazer.h" 3 "Wed Aug 22 2018" "Version 1.1" "Lazer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+lazer.h \- Сама библиотека\&. Её надо подключить\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetLazer\fP (int Color)"
+.br
+.ti -1c
+.RI "void \fBSetLazerPos\fP (int TargetX, int TargetY, float Drspeed)"
+.br
+.ti -1c
+.RI "void \fBGoToCorner\fP (int corn, int Drspeed)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber1\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber2\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber3\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber4\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber5\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber6\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber7\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber8\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber9\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber0\fP (int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawNumber\fP (int Num, int StartX=5, int StartY=5)"
+.br
+.ti -1c
+.RI "void \fBDrawGitHubLogo\fP (int Speed)"
+.br
+.ti -1c
+.RI "void \fBDrawSquare\fP (int StartX, int StartY, int EndX, int EndY, float Drspeed)"
+.br
+.ti -1c
+.RI "void \fBcalebrateLaser\fP ()"
+.br
+.ti -1c
+.RI "void \fBLazerInit\fP (int StepPin1, int DirectionPin1, int EnablePin1, int StepPin2, int DirectionPin2, int EnablePin2, int ControllPin1)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "byte \fB_LAZER_STEP_PIN_1\fP = 0"
+.br
+.RI "Отвечает за первый пин первого шагового двигателя "
+.ti -1c
+.RI "byte \fB_LAZER_DIRECTION_PIN_1\fP = 0"
+.br
+.RI "Отвечает за второй пин первого шагового двигателя "
+.ti -1c
+.RI "byte \fB_LAZER_ENABLE_PIN_1\fP = 0"
+.br
+.RI "Отвечает за третий пин первого шагового двигателя "
+.ti -1c
+.RI "byte \fB_LAZER_STEP_PIN_2\fP = 0"
+.br
+.RI "Отвечает за первый пин второго шагового двигателя "
+.ti -1c
+.RI "byte \fB_LAZER_DIRECTION_PIN_2\fP = 0"
+.br
+.RI "Отвечает за второй пин второго шагового двигателя "
+.ti -1c
+.RI "byte \fB_LAZER_ENABLE_PIN_2\fP = 0"
+.br
+.RI "Отвечает за третий пин второго шагового двигателя "
+.ti -1c
+.RI "byte \fB_LAZER_CONTROLL_PIN_1\fP = 0"
+.br
+.RI "Пин, который отвечает за включение лазера "
+.ti -1c
+.RI "int \fB_LAZER_NOW_LAZER_IN_X\fP = 0"
+.br
+.ti -1c
+.RI "int \fB_LAZER_NOW_LAZER_IN_Y\fP = 0"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Сама библиотека\&. Её надо подключить\&. 
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Lazer from the source code\&.

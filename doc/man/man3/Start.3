@@ -1,0 +1,52 @@
+.TH "Start" 3 "Wed Aug 22 2018" "Version 1.1" "Lazer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Start \- С помощью этих функций можно откалибровать лазер и указать управляющие пины\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBcalebrateLaser\fP ()"
+.br
+.ti -1c
+.RI "void \fBLazerInit\fP (int StepPin1, int DirectionPin1, int EnablePin1, int StepPin2, int DirectionPin2, int EnablePin2, int ControllPin1)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+С помощью этих функций можно откалибровать лазер и указать управляющие пины\&. 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "void calebrateLaser ()"
+Калибрует лазер по ограничителям\&. 
+.SS "void LazerInit (int StepPin1, int DirectionPin1, int EnablePin1, int StepPin2, int DirectionPin2, int EnablePin2, int ControllPin1)"
+Устанавливает пины для шаговиков и лазера\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIStepPin1\fP 
+.br
+\fIDirectionPin1\fP 
+.br
+\fIEnablePin1\fP 
+.br
+\fIStepPin2\fP 
+.br
+\fIDirectionPin2\fP 
+.br
+\fIEnablePin2\fP 
+.br
+\fIControllPin1\fP 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Lazer from the source code\&.

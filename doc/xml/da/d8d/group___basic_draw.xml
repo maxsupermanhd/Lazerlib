@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d8d/group___basic_draw" kind="group">
+    <compoundname>BasicDraw</compoundname>
+    <title>Базовые движения для рисования</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="da/d8d/group___basic_draw_1gaa34cbbbd5c12f49f2b0fe6a099bf06f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetLazer</definition>
+        <argsstring>(int Color)</argsstring>
+        <name>SetLazer</name>
+        <param>
+          <type>int</type>
+          <declname>Color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Включает или выключает лазер. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>комманда 0-выключить, 1-включить </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="57" column="1" bodyfile="lazer.h" bodystart="57" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d8d/group___basic_draw_1ga2c5a8c530566d1cf856b2ac2b35eaabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetLazerPos</definition>
+        <argsstring>(int TargetX, int TargetY, float Drspeed)</argsstring>
+        <name>SetLazerPos</name>
+        <param>
+          <type>int</type>
+          <declname>TargetX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TargetY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Drspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер в нужную координату с определенной скоростью. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TargetX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TargetY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Координата по оси Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Drspeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Скорость. Значения меньше 1 на свой страх и риск! </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="76" column="1" bodyfile="lazer.h" bodystart="76" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d8d/group___basic_draw_1ga1997b15bd309f2f55697b429c5208169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoToCorner</definition>
+        <argsstring>(int corn, int Drspeed)</argsstring>
+        <name>GoToCorner</name>
+        <param>
+          <type>int</type>
+          <declname>corn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Drspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><heading level="2">Двигает лазер в нужную координату с определенной скоростью. </heading>
+</para><para>Возможные направления: <programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>2</highlight></codeline>
+<codeline><highlight class="normal"><sp/>\<sp/>/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>O</highlight></codeline>
+<codeline><highlight class="normal"><sp/>/<sp/>\</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>3</highlight></codeline>
+</programlisting> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>corn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Направление (1, 2, 3, 4) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Drspeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Скорость. Значения меньше 1 на свой страх и риск! </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="151" column="1" bodyfile="lazer.h" bodystart="151" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>С помощью этих функций можно нарисовать абсолютно все! </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

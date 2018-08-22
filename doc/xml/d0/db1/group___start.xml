@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/db1/group___start" kind="group">
+    <compoundname>Start</compoundname>
+    <title>Функции для начала работы</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d0/db1/group___start_1ga0475f9bcb9c576d310b09f08ea345147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void calebrateLaser</definition>
+        <argsstring>()</argsstring>
+        <name>calebrateLaser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Калибрует лазер по ограничителям. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="553" column="1" bodyfile="lazer.h" bodystart="553" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/db1/group___start_1ga978cb22651dc9ec464e61a8fbe839025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LazerInit</definition>
+        <argsstring>(int StepPin1, int DirectionPin1, int EnablePin1, int StepPin2, int DirectionPin2, int EnablePin2, int ControllPin1)</argsstring>
+        <name>LazerInit</name>
+        <param>
+          <type>int</type>
+          <declname>StepPin1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>DirectionPin1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>EnablePin1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StepPin2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>DirectionPin2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>EnablePin2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ControllPin1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Устанавливает пины для шаговиков и лазера. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StepPin1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>DirectionPin1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EnablePin1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StepPin2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>DirectionPin2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EnablePin2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ControllPin1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="644" column="1" bodyfile="lazer.h" bodystart="644" bodyend="661"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>С помощью этих функций можно откалибровать лазер и указать управляющие пины. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

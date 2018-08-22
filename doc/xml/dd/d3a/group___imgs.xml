@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dd/d3a/group___imgs" kind="group">
+    <compoundname>Imgs</compoundname>
+    <title>Функции для демо-рисования</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dd/d3a/group___imgs_1gaa08218b5d67e8789dc645a4c5e35b7cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawGitHubLogo</definition>
+        <argsstring>(int Speed)</argsstring>
+        <name>DrawGitHubLogo</name>
+        <param>
+          <type>int</type>
+          <declname>Speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Двигает лазер так, что получается логотип GitHub. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Скорость отрисовки <image type="html" name="GitHubDrawing.jpg" width="200cm">My GitHub</image>
+ </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="445" column="1" bodyfile="lazer.h" bodystart="445" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d3a/group___imgs_1ga38b9555ed8d89e3d3946ffd9e261c1d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawSquare</definition>
+        <argsstring>(int StartX, int StartY, int EndX, int EndY, float Drspeed)</argsstring>
+        <name>DrawSquare</name>
+        <param>
+          <type>int</type>
+          <declname>StartX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StartY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>EndX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>EndY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Drspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Рисует квадрат по координатам. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>StartX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Начальная координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Начальная координата по оси Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EndX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Конечная координата по оси X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EndY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Конечная координата по оси Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Drspeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Скорость </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lazer.h" line="493" column="1" bodyfile="lazer.h" bodystart="493" bodyend="542"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>С помощью этих функций можно проверить калибровку и шаговики. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
